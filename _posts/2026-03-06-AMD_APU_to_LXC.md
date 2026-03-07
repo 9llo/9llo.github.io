@@ -1,11 +1,9 @@
 ---
-layout: post
 title: "AMD APU Passthrough to a Proxmox LXC for Local AI"
 date: 2026-03-06 14:00:00 -0300
 categories: Homelab Proxmox AI
 tags: proxmox lxc gpu-passthrough amd ryzen ollama docker open-webui llm # TAG names should always be lowercase
 description: Step-by-step guide to successfully passing your AMD APU through to an LXC container and deploying a hardware-accelerated AI stack with Ollama and Open WebUI.
-author: Gustavo Novello
 ---
 
 Running local Large Language Models (LLMs) on a CPU is slow. If your homelab server has an AMD Ryzen APU, you can use that integrated GPU to speed up inference. 
